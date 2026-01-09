@@ -27,6 +27,17 @@
             <button class="back-btn" onclick="logout()">Logout</button>
         </div>
 
+        <!-- Difficulty Selection Page -->
+        <div id="difficultyPage" class="page">
+            <h1>Choose Difficulty</h1>
+            <div class="mode-buttons">
+                <button onclick="startGame('computer', 'easy')">🟢 Easy</button>
+                <button onclick="startGame('computer', 'medium')">🟡 Medium</button>
+                <button onclick="startGame('computer', 'hard')">🔴 Hard</button>
+            </div>
+            <button class="back-btn" onclick="showPage('modePage')">Back</button>
+        </div>
+
         <!-- Game Page -->
         <div id="gamePage" class="page">
             <h1>Tic Tac Toe</h1>
