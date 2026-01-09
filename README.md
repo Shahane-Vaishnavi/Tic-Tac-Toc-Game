@@ -31,9 +31,6 @@ Feel free to open issues or submit PRs. Suggestions:
 - Improve AI from random moves to Minimax
 - Add tests and accessibility improvements
 
-## License 📄
-MIT
-
 ---
 
 If you'd like, I can add badges, a CONTRIBUTING.md, or convert the project to use a build step (minification, linting).
