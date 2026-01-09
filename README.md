@@ -14,16 +14,34 @@ A simple browser-based Tic Tac Toe game built with HTML, CSS, and JavaScript.
 - `script.js` — Game logic and interactions
 
 ## Run locally ▶️
-1. Open `index.html` directly in your browser (double-click the file).
-2. Or use a live server for better dev experience (VS Code Live Server extension):
-   - Install the Live Server extension in VS Code
-   - Right-click `index.html` → "Open with Live Server"
-3. Alternatively, use Python's simple HTTP server:
+
+### Quick open
+- Open `index.html` directly in your browser (double-click the file).
+
+### Using VS Code Live Server
+- Install the **Live Server** extension and right-click `index.html` → "Open with Live Server".
+
+### Run from terminal (recommended)
+1. Open a terminal (PowerShell, Command Prompt, Git Bash, or macOS/Linux shell).
+2. Change to the project directory:
    ```bash
-   # Python 3
-   python -m http.server 8000
-   # then open http://localhost:8000 in your browser
+   cd D:\Programming\Projects\Tic-Tac-Toc-Game
    ```
+3. Start a simple HTTP server:
+   - With Python 3 (recommended):
+     ```bash
+     python -m http.server 8000
+     ```
+   - With Node (if Node.js is installed):
+     ```bash
+     npx http-server -p 8000
+     # or
+     npx serve
+     ```
+4. Open http://localhost:8000 in your browser.
+5. Stop the server with Ctrl+C in the terminal.
+
+>If the port is already in use, change `8000` to an available port (for example `8001`).
 
 ## Contributing 🤝
 Feel free to open issues or submit PRs. Suggestions:
